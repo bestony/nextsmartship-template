@@ -4,3 +4,11 @@
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.cover{
+    display: block;
+    color: rgb(255, 255, 255);
+    position: relative;
+    min-height: 100vh;
+    background: url("../src/images/thankyou-bg.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
